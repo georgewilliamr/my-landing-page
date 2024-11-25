@@ -118,12 +118,7 @@ main p {
     background-color: #D8D8D8;
     border-radius: 15px; 
     margin: 20px 0px;
-    padding: 100px 10%; 
-    
-}
-
-.services h1 {
-    display: flex; 
+    padding: 100px 10%;   
 }
 
 .services-text {
@@ -133,17 +128,13 @@ main p {
 }
 
 .image-container {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 0px;;
     
 
 }
-
-.services-imgs {
-    height: 100px;
-    position: absolute;
-
-}
-
-
 
 /* Portfolio */
 
@@ -154,11 +145,56 @@ main p {
     padding: 100px 10%;
 }
 
+
+.portfolio h1 {
+    padding: 0px 0px 50px;
+    font-size: 28px;
+}
+
+.portfolio p {
+    line-height: 1.5;
+}
+
 /* let's chat */
 
 .chat {
     background-color: #D8D8D8;
     border-radius: 15px;
-    margin: 20px 0px;
-    padding: 100px 10%;
+    margin: 10px 0px;
+    padding: 10px 10%;
 }
+
+.chat h1 {
+    padding: 20px 0px 20px;
+    font-size: 28px;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #D8D8D8;
+    border-radius: 15px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
