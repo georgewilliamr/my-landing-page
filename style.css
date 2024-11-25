@@ -7,6 +7,7 @@
 
 body {
     margin: 10px; 
+    background-color: #000000;
 }
 
 /* Nav */
@@ -63,3 +64,101 @@ button {
 }
 
 /* Main */
+
+main {
+    background-color: #d8d8d8;
+    border-radius: 15px;
+    margin: 20px 0px;
+    padding: 100px 10%;
+}
+
+.main-text {
+    padding: 0px 0px 50px;    
+}
+
+.main-text h1 {
+    padding: 10px;
+    font-size: 28px;
+    
+}
+
+main p {
+    line-height: 1.5;
+}
+
+
+.img {
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 600px;  
+}
+
+/* About */
+
+.about {
+    background-color: #e94823;
+    border-radius: 15px;
+    margin: 20px 0px;
+    padding: 100px 10%;
+}
+
+.about h1 {
+    padding: 0px 0px 50px;
+    font-size: 28px;
+}
+
+.about p {
+    line-height: 1.5;
+}
+
+/* Services */
+
+.services {
+    background-color: #D8D8D8;
+    border-radius: 15px; 
+    margin: 20px 0px;
+    padding: 100px 10%; 
+    
+}
+
+.services h1 {
+    display: flex; 
+}
+
+.services-text {
+    display: flex;
+    gap: 0px 20px;
+    padding: 50px 0px 0px;
+}
+
+.image-container {
+    
+
+}
+
+.services-imgs {
+    height: 100px;
+    position: absolute;
+
+}
+
+
+
+/* Portfolio */
+
+.portfolio {
+    background-color: #e94823;
+    border-radius: 15px; 
+    margin: 20px 0px;
+    padding: 100px 10%;
+}
+
+/* let's chat */
+
+.chat {
+    background-color: #D8D8D8;
+    border-radius: 15px;
+    margin: 20px 0px;
+    padding: 100px 10%;
+}
