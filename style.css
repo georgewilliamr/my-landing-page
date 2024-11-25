@@ -28,6 +28,7 @@ header {
     padding: 20px 10%;
     border-radius: 15px;
     background-color: #e94823;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -37,7 +38,10 @@ header {
 }
 
 .nav-links{
-list-style: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .nav-links li {
@@ -126,8 +130,13 @@ main p {
     padding: 100px 10%;   
 }
 
+.services h1 {
+    font-size: 28px;
+}
+
 .services-text {
     display: flex;
+    justify-content: space-between;
     gap: 0px 20px;
     padding: 50px 0px 0px;
 }

@@ -12,11 +12,8 @@
 <body>
 
 <!-- NAV BAR -->
-
-    <header>
-
-        <h1 class="logo">dynamicAtelier</h1>
-        
+<header>
+    <h1 class="logo">dynamicAtelier</h1>
         <nav>
             <ul class="nav-links">
                 <li><a href="#">about</a></li>
@@ -24,90 +21,65 @@
                 <li><a href="#">portfolio</a></li>
             </ul>
         </nav>
-    
         <a class="cta" href="#"><button>let's chat</button></a>
-
-    </header>
-
+</header>
 
 <!-- OPENER -->
-
-    <main>
-
-        <img class="img" src="/Users/georgerostron/repos/Project/my-landing-page/imgs/Programming-amico.png" alt="Web Developer">
-
+<main>
+    <img class="img" src="/Users/georgerostron/repos/Project/my-landing-page/imgs/Programming-amico.png" alt="Web Developer">
         <div class="main-text">
             <h1>innovate.</h1>
             <h1>create.</h1>
             <h1>engage.</h1>
         </div>
-
         <p>we transform your ideas into seamless web solutions, crafting digital experience that brings your vision to life.</p>
-
-    </main>
+</main>
 
 <!-- ABOUT -->
-
-    <section class="about">  
-
-        <h1>about</h1>
-        <p>DynamicAtelier is a web development studio focused on turning your digital ideas into innovative and engaging web solutions. We specialise in responsive design, seamless functionality, and user-centred experiences, bringing your vision to life with creative precision. Whether you're developing a sleek website or a robust web application, our team creates dynamic digital solutions tailored to meet your unique needs. At DynamicAtelier, we don’t just build websites – we craft lasting impressions that captivate and empower your audience.</p>
-
-    </section>
+<section class="about">  
+    <h1>about</h1>
+    <p>DynamicAtelier is a web development studio focused on turning your digital ideas into innovative and engaging web solutions. We specialise in responsive design, seamless functionality, and user-centred experiences, bringing your vision to life with creative precision. Whether you're developing a sleek website or a robust web application, our team creates dynamic digital solutions tailored to meet your unique needs. At DynamicAtelier, we don’t just build websites – we craft lasting impressions that captivate and empower your audience.</p>
+</section>
 
  <!-- SERVICES -->
-
-    <section class="services">
-        
-        <h1>services</h1>
-        
+<section class="services">
+    <h1>services</h1>
         <div class="image-container">
             <img src="/Users/georgerostron/repos/Project/my-landing-page/imgs/Programming-pana.png" alt="Web Development">
             <img src="/Users/georgerostron/repos/Project/my-landing-page/imgs/Programming-cuate.png" alt="Web Design">
             <img src="/Users/georgerostron/repos/Project/my-landing-page/imgs/Programming-rafiki.png" alt="SEO Optimisation">
             <img src="/Users/georgerostron/repos/Project/my-landing-page/imgs/Programming-bro.png" alt="web Maintance">
         </div>
-                
-        <div class="services-text">
-                
-            <h2>web development</h2>
-            <h2>web design</h2>
-            <h2>SEO optimisation</h2>
-            <h2>web maintance</h2>
         
-        </div>
-
-    </section>
+    <div class="services-text">
+        <h2>web development</h2>
+        <h2>web design</h2>
+        <h2>SEO optimisation</h2>
+        <h2>web maintance</h2>
+    </div>
+</section>
 
 <!-- PORTFOLIO -->
-
-    <section class="portfolio">
-
-        <h1>portfolio</h1>
-        <p>DynamicAtelier is an innovative web development studio dedicated to crafting exceptional digital experiences. Our portfolio highlights a diverse range of projects, from seamless websites to sophisticated web applications, all designed with user-centric functionality and aesthetic appeal. Each project is a reflection of our commitment to quality, showcasing our ability to bring unique ideas to life through cutting-edge design and development practices. With a focus on performance, responsiveness, and creativity, our portfolio demonstrates our expertise in delivering tailor-made solutions that empower businesses and captivate audiences.</p>
-
-    </section>
+<section class="portfolio">
+    <h1>portfolio</h1>
+    <p>DynamicAtelier is an innovative web development studio dedicated to crafting exceptional digital experiences. Our portfolio highlights a diverse range of projects, from seamless websites to sophisticated web applications, all designed with user-centric functionality and aesthetic appeal. Each project is a reflection of our commitment to quality, showcasing our ability to bring unique ideas to life through cutting-edge design and development practices. With a focus on performance, responsiveness, and creativity, our portfolio demonstrates our expertise in delivering tailor-made solutions that empower businesses and captivate audiences.</p>
+</section>
 
 <!-- LET'S CHAT -->
-
-    
-    <section class="chat">
-
-        <h1>let's chat</h1>
-
+<section class="chat">
+    <h1>let's chat</h1>
         <div class="container">
             <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
           
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
           
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
           
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
+                <input type="submit" value="Submit">
           
             </form>
           </div>
